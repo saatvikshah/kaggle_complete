@@ -1,0 +1,262 @@
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'IQRMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteMaxMoveScore', 'WhiteMinMoveScore', 'WhiteRangeMoveScore', 'WhiteIQRMoveScore', 'WhiteMedianMoveScore', 'WhiteSTDMoveScore', 'WhiteMeanMoveScore', 'WhiteModeMoveScore', 'WhiteSumMoveScore', 'WhiteBlunderCount', 'BlackMaxMoveScore', 'BlackMinMoveScore', 'BlackRangeMoveScore', 'BlackIQRMoveScore', 'BlackMedianMoveScore', 'BlackSTDMoveScore', 'BlackMeanMoveScore', 'BlackModeMoveScore', 'BlackSumMoveScore', 'BlackBlunderCount', 'WhiteAdvantageMinMoveScore', 'WhiteAdvantageRangeMoveScore', 'WhiteAdvantageIQRMoveScore', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMaxMoveScore', 'BlackAdvantageRangeMoveScore', 'BlackAdvantageIQRMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore']
+RandomForestRegressor(bootstrap=True, compute_importances=None,
+           criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_density=None, min_samples_leaf=1,
+           min_samples_split=2, n_estimators=600, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0)
+[-196.96800211 -197.061541   -196.25082283 -194.9622049 ]
+[-202.84266568 -198.9964868  -198.65866512 -197.56175718]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'IQRMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMinMoveScore', 'WhiteAdvantageRangeMoveScore', 'WhiteAdvantageIQRMoveScore', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMaxMoveScore', 'BlackAdvantageRangeMoveScore', 'BlackAdvantageIQRMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore']
+RandomForestRegressor(bootstrap=True, compute_importances=None,
+           criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_density=None, min_samples_leaf=1,
+           min_samples_split=2, n_estimators=1000, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0)
+[ 198.09718403  198.00088721  196.91780269  196.46977842]
+[ 204.52813058  200.65993402  199.8950317   198.8159242 ]
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'BlunderCount', 'Results']
+RandomForestRegressor(bootstrap=True, compute_importances=None,
+           criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_density=None, min_samples_leaf=1,
+           min_samples_split=2, n_estimators=600, n_jobs=-1,
+           oob_score=False, random_state=None, verbose=0)
+[ 199.91396199  199.88049647  197.57827286  197.99800554]
+[ 205.22195211  203.09387704  201.16191834  200.03932164]
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+RandomForestRegressor(bootstrap=True, compute_importances=None,
+           criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_density=None, min_samples_leaf=1,
+           min_samples_split=2, n_estimators=500, n_jobs=-1,
+           oob_score=False, random_state=None, verbose=0)
+[ 200.38425629  200.34584109  198.35479524  198.38191973]
+[ 205.20216538  203.53504882  201.42488032  200.31626624]
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+RandomForestRegressor(bootstrap=True, compute_importances=None,
+           criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_density=None, min_samples_leaf=1,
+           min_samples_split=2, n_estimators=600, n_jobs=-1,
+           oob_score=False, random_state=None, verbose=0)
+[ 200.37201651  200.12318177  198.2929428   198.29079383]
+[ 205.14835326  203.65476331  201.5324787   200.20713541]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'IQRMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteMaxMoveScore', 'WhiteMinMoveScore', 'WhiteRangeMoveScore', 'WhiteIQRMoveScore', 'WhiteMedianMoveScore', 'WhiteSTDMoveScore', 'WhiteMeanMoveScore', 'WhiteModeMoveScore', 'WhiteSumMoveScore', 'WhiteBlunderCount', 'BlackMaxMoveScore', 'BlackMinMoveScore', 'BlackRangeMoveScore', 'BlackIQRMoveScore', 'BlackMedianMoveScore', 'BlackSTDMoveScore', 'BlackMeanMoveScore', 'BlackModeMoveScore', 'BlackSumMoveScore', 'BlackBlunderCount', 'WhiteAdvantageMinMoveScore', 'WhiteAdvantageRangeMoveScore', 'WhiteAdvantageIQRMoveScore', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMaxMoveScore', 'BlackAdvantageRangeMoveScore', 'BlackAdvantageIQRMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore', 'AllMoveScoresPartitionLen', 'Partition0MaxMoveScore', 'Partition0MinMoveScore', 'Partition0RangeMoveScore', 'Partition0IQRMoveScore', 'Partition0MedianMoveScore', 'Partition0STDMoveScore', 'Partition0MeanMoveScore', 'Partition0ModeMoveScore', 'Partition0SumMoveScore', 'Partition0BlunderCount', 'Partition1MaxMoveScore', 'Partition1MinMoveScore', 'Partition1RangeMoveScore', 'Partition1IQRMoveScore', 'Partition1MedianMoveScore', 'Partition1STDMoveScore', 'Partition1MeanMoveScore', 'Partition1ModeMoveScore', 'Partition1SumMoveScore', 'Partition1BlunderCount', 'Partition2MaxMoveScore', 'Partition2MinMoveScore', 'Partition2RangeMoveScore', 'Partition2IQRMoveScore', 'Partition2MedianMoveScore', 'Partition2STDMoveScore', 'Partition2MeanMoveScore', 'Partition2ModeMoveScore', 'Partition2SumMoveScore', 'Partition2BlunderCount', 'Partition3MaxMoveScore', 'Partition3MinMoveScore', 'Partition3RangeMoveScore', 'Partition3IQRMoveScore', 'Partition3MedianMoveScore', 'Partition3STDMoveScore', 'Partition3MeanMoveScore', 'Partition3ModeMoveScore', 'Partition3SumMoveScore', 'Partition3BlunderCount', 'WhiteMoveScoresPartitionLen', 'Partition0MaxWhiteMoveScore', 'Partition0MinWhiteMoveScore', 'Partition0RangeWhiteMoveScore', 'Partition0IQRWhiteMoveScore', 'Partition0MedianWhiteMoveScore', 'Partition0STDWhiteMoveScore', 'Partition0MeanWhiteMoveScore', 'Partition0ModeWhiteMoveScore', 'Partition0SumWhiteMoveScore', 'Partition0WhiteBlunderCount', 'Partition1MaxWhiteMoveScore', 'Partition1MinWhiteMoveScore', 'Partition1RangeWhiteMoveScore', 'Partition1IQRWhiteMoveScore', 'Partition1MedianWhiteMoveScore', 'Partition1STDWhiteMoveScore', 'Partition1MeanWhiteMoveScore', 'Partition1ModeWhiteMoveScore', 'Partition1SumWhiteMoveScore', 'Partition1WhiteBlunderCount', 'Partition2MaxWhiteMoveScore', 'Partition2MinWhiteMoveScore', 'Partition2RangeWhiteMoveScore', 'Partition2IQRWhiteMoveScore', 'Partition2MedianWhiteMoveScore', 'Partition2STDWhiteMoveScore', 'Partition2MeanWhiteMoveScore', 'Partition2ModeWhiteMoveScore', 'Partition2SumWhiteMoveScore', 'Partition2WhiteBlunderCount', 'Partition3MaxWhiteMoveScore', 'Partition3MinWhiteMoveScore', 'Partition3RangeWhiteMoveScore', 'Partition3IQRWhiteMoveScore', 'Partition3MedianWhiteMoveScore', 'Partition3STDWhiteMoveScore', 'Partition3MeanWhiteMoveScore', 'Partition3ModeWhiteMoveScore', 'Partition3SumWhiteMoveScore', 'Partition3WhiteBlunderCount', 'BlackMoveScoresPartitionLen', 'Partition0MaxBlackMoveScore', 'Partition0MinBlackMoveScore', 'Partition0RangeBlackMoveScore', 'Partition0IQRBlackMoveScore', 'Partition0MedianBlackMoveScore', 'Partition0STDBlackMoveScore', 'Partition0MeanBlackMoveScore', 'Partition0ModeBlackMoveScore', 'Partition0SumBlackMoveScore', 'Partition0BlackBlunderCount', 'Partition1MaxBlackMoveScore', 'Partition1MinBlackMoveScore', 'Partition1RangeBlackMoveScore', 'Partition1IQRBlackMoveScore', 'Partition1MedianBlackMoveScore', 'Partition1STDBlackMoveScore', 'Partition1MeanBlackMoveScore', 'Partition1ModeBlackMoveScore', 'Partition1SumBlackMoveScore', 'Partition1BlackBlunderCount', 'Partition2MaxBlackMoveScore', 'Partition2MinBlackMoveScore', 'Partition2RangeBlackMoveScore', 'Partition2IQRBlackMoveScore', 'Partition2MedianBlackMoveScore', 'Partition2STDBlackMoveScore', 'Partition2MeanBlackMoveScore', 'Partition2ModeBlackMoveScore', 'Partition2SumBlackMoveScore', 'Partition2BlackBlunderCount', 'Partition3MaxBlackMoveScore', 'Partition3MinBlackMoveScore', 'Partition3RangeBlackMoveScore', 'Partition3IQRBlackMoveScore', 'Partition3MedianBlackMoveScore', 'Partition3STDBlackMoveScore', 'Partition3MeanBlackMoveScore', 'Partition3ModeBlackMoveScore', 'Partition3SumBlackMoveScore', 'Partition3BlackBlunderCount', 'WhiteAdvantageMoveScoresPartitionLen', 'Partition0MaxWhiteAdvantageMoveScore', 'Partition0MinWhiteAdvantageMoveScore', 'Partition0RangeWhiteAdvantageMoveScore', 'Partition0IQRWhiteAdvantageMoveScore', 'Partition0MedianWhiteAdvantageMoveScore', 'Partition0STDWhiteAdvantageMoveScore', 'Partition0MeanWhiteAdvantageMoveScore', 'Partition0ModeWhiteAdvantageMoveScore', 'Partition0SumWhiteAdvantageMoveScore', 'Partition0WhiteAdvantageBlunderCount', 'Partition1MaxWhiteAdvantageMoveScore', 'Partition1MinWhiteAdvantageMoveScore', 'Partition1RangeWhiteAdvantageMoveScore', 'Partition1IQRWhiteAdvantageMoveScore', 'Partition1MedianWhiteAdvantageMoveScore', 'Partition1STDWhiteAdvantageMoveScore', 'Partition1MeanWhiteAdvantageMoveScore', 'Partition1ModeWhiteAdvantageMoveScore', 'Partition1SumWhiteAdvantageMoveScore', 'Partition1WhiteAdvantageBlunderCount', 'Partition2MaxWhiteAdvantageMoveScore', 'Partition2MinWhiteAdvantageMoveScore', 'Partition2RangeWhiteAdvantageMoveScore', 'Partition2IQRWhiteAdvantageMoveScore', 'Partition2MedianWhiteAdvantageMoveScore', 'Partition2STDWhiteAdvantageMoveScore', 'Partition2MeanWhiteAdvantageMoveScore', 'Partition2ModeWhiteAdvantageMoveScore', 'Partition2SumWhiteAdvantageMoveScore', 'Partition2WhiteAdvantageBlunderCount', 'Partition3MaxWhiteAdvantageMoveScore', 'Partition3MinWhiteAdvantageMoveScore', 'Partition3RangeWhiteAdvantageMoveScore', 'Partition3IQRWhiteAdvantageMoveScore', 'Partition3MedianWhiteAdvantageMoveScore', 'Partition3STDWhiteAdvantageMoveScore', 'Partition3MeanWhiteAdvantageMoveScore', 'Partition3ModeWhiteAdvantageMoveScore', 'Partition3SumWhiteAdvantageMoveScore', 'Partition3WhiteAdvantageBlunderCount', 'BlackAdvantageMoveScoresPartitionLen', 'Partition0MaxBlackAdvantageMoveScore', 'Partition0MinBlackAdvantageMoveScore', 'Partition0RangeBlackAdvantageMoveScore', 'Partition0IQRBlackAdvantageMoveScore', 'Partition0MedianBlackAdvantageMoveScore', 'Partition0STDBlackAdvantageMoveScore', 'Partition0MeanBlackAdvantageMoveScore', 'Partition0ModeBlackAdvantageMoveScore', 'Partition0SumBlackAdvantageMoveScore', 'Partition0BlackAdvantageBlunderCount', 'Partition1MaxBlackAdvantageMoveScore', 'Partition1MinBlackAdvantageMoveScore', 'Partition1RangeBlackAdvantageMoveScore', 'Partition1IQRBlackAdvantageMoveScore', 'Partition1MedianBlackAdvantageMoveScore', 'Partition1STDBlackAdvantageMoveScore', 'Partition1MeanBlackAdvantageMoveScore', 'Partition1ModeBlackAdvantageMoveScore', 'Partition1SumBlackAdvantageMoveScore', 'Partition1BlackAdvantageBlunderCount', 'Partition2MaxBlackAdvantageMoveScore', 'Partition2MinBlackAdvantageMoveScore', 'Partition2RangeBlackAdvantageMoveScore', 'Partition2IQRBlackAdvantageMoveScore', 'Partition2MedianBlackAdvantageMoveScore', 'Partition2STDBlackAdvantageMoveScore', 'Partition2MeanBlackAdvantageMoveScore', 'Partition2ModeBlackAdvantageMoveScore', 'Partition2SumBlackAdvantageMoveScore', 'Partition2BlackAdvantageBlunderCount', 'Partition3MaxBlackAdvantageMoveScore', 'Partition3MinBlackAdvantageMoveScore', 'Partition3RangeBlackAdvantageMoveScore', 'Partition3IQRBlackAdvantageMoveScore', 'Partition3MedianBlackAdvantageMoveScore', 'Partition3STDBlackAdvantageMoveScore', 'Partition3MeanBlackAdvantageMoveScore', 'Partition3ModeBlackAdvantageMoveScore', 'Partition3SumBlackAdvantageMoveScore', 'Partition3BlackAdvantageBlunderCount']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[-195.72685278 -195.52718349 -194.4059438  -196.3292778 ]
+[-200.41748966 -199.41908041 -199.5913043  -197.11489038]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'IQRMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteMaxMoveScore', 'WhiteMinMoveScore', 'WhiteRangeMoveScore', 'WhiteIQRMoveScore', 'WhiteMedianMoveScore', 'WhiteSTDMoveScore', 'WhiteMeanMoveScore', 'WhiteModeMoveScore', 'WhiteSumMoveScore', 'WhiteBlunderCount', 'BlackMaxMoveScore', 'BlackMinMoveScore', 'BlackRangeMoveScore', 'BlackIQRMoveScore', 'BlackMedianMoveScore', 'BlackSTDMoveScore', 'BlackMeanMoveScore', 'BlackModeMoveScore', 'BlackSumMoveScore', 'BlackBlunderCount', 'WhiteAdvantageMinMoveScore', 'WhiteAdvantageRangeMoveScore', 'WhiteAdvantageIQRMoveScore', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMaxMoveScore', 'BlackAdvantageRangeMoveScore', 'BlackAdvantageIQRMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore', 'AllMoveScoresPartitionLen', 'Partition0MaxMoveScore', 'Partition0MinMoveScore', 'Partition0RangeMoveScore', 'Partition0IQRMoveScore', 'Partition0MedianMoveScore', 'Partition0STDMoveScore', 'Partition0MeanMoveScore', 'Partition0ModeMoveScore', 'Partition0SumMoveScore', 'Partition0BlunderCount', 'Partition1MaxMoveScore', 'Partition1MinMoveScore', 'Partition1RangeMoveScore', 'Partition1IQRMoveScore', 'Partition1MedianMoveScore', 'Partition1STDMoveScore', 'Partition1MeanMoveScore', 'Partition1ModeMoveScore', 'Partition1SumMoveScore', 'Partition1BlunderCount', 'Partition2MaxMoveScore', 'Partition2MinMoveScore', 'Partition2RangeMoveScore', 'Partition2IQRMoveScore', 'Partition2MedianMoveScore', 'Partition2STDMoveScore', 'Partition2MeanMoveScore', 'Partition2ModeMoveScore', 'Partition2SumMoveScore', 'Partition2BlunderCount', 'Partition3MaxMoveScore', 'Partition3MinMoveScore', 'Partition3RangeMoveScore', 'Partition3IQRMoveScore', 'Partition3MedianMoveScore', 'Partition3STDMoveScore', 'Partition3MeanMoveScore', 'Partition3ModeMoveScore', 'Partition3SumMoveScore', 'Partition3BlunderCount', 'Partition4MaxMoveScore', 'Partition4MinMoveScore', 'Partition4RangeMoveScore', 'Partition4IQRMoveScore', 'Partition4MedianMoveScore', 'Partition4STDMoveScore', 'Partition4MeanMoveScore', 'Partition4ModeMoveScore', 'Partition4SumMoveScore', 'Partition4BlunderCount', 'WhiteMoveScoresPartitionLen', 'Partition0MaxWhiteMoveScore', 'Partition0MinWhiteMoveScore', 'Partition0RangeWhiteMoveScore', 'Partition0IQRWhiteMoveScore', 'Partition0MedianWhiteMoveScore', 'Partition0STDWhiteMoveScore', 'Partition0MeanWhiteMoveScore', 'Partition0ModeWhiteMoveScore', 'Partition0SumWhiteMoveScore', 'Partition0WhiteBlunderCount', 'Partition1MaxWhiteMoveScore', 'Partition1MinWhiteMoveScore', 'Partition1RangeWhiteMoveScore', 'Partition1IQRWhiteMoveScore', 'Partition1MedianWhiteMoveScore', 'Partition1STDWhiteMoveScore', 'Partition1MeanWhiteMoveScore', 'Partition1ModeWhiteMoveScore', 'Partition1SumWhiteMoveScore', 'Partition1WhiteBlunderCount', 'Partition2MaxWhiteMoveScore', 'Partition2MinWhiteMoveScore', 'Partition2RangeWhiteMoveScore', 'Partition2IQRWhiteMoveScore', 'Partition2MedianWhiteMoveScore', 'Partition2STDWhiteMoveScore', 'Partition2MeanWhiteMoveScore', 'Partition2ModeWhiteMoveScore', 'Partition2SumWhiteMoveScore', 'Partition2WhiteBlunderCount', 'Partition3MaxWhiteMoveScore', 'Partition3MinWhiteMoveScore', 'Partition3RangeWhiteMoveScore', 'Partition3IQRWhiteMoveScore', 'Partition3MedianWhiteMoveScore', 'Partition3STDWhiteMoveScore', 'Partition3MeanWhiteMoveScore', 'Partition3ModeWhiteMoveScore', 'Partition3SumWhiteMoveScore', 'Partition3WhiteBlunderCount', 'Partition4MaxWhiteMoveScore', 'Partition4MinWhiteMoveScore', 'Partition4RangeWhiteMoveScore', 'Partition4IQRWhiteMoveScore', 'Partition4MedianWhiteMoveScore', 'Partition4STDWhiteMoveScore', 'Partition4MeanWhiteMoveScore', 'Partition4ModeWhiteMoveScore', 'Partition4SumWhiteMoveScore', 'Partition4WhiteBlunderCount', 'BlackMoveScoresPartitionLen', 'Partition0MaxBlackMoveScore', 'Partition0MinBlackMoveScore', 'Partition0RangeBlackMoveScore', 'Partition0IQRBlackMoveScore', 'Partition0MedianBlackMoveScore', 'Partition0STDBlackMoveScore', 'Partition0MeanBlackMoveScore', 'Partition0ModeBlackMoveScore', 'Partition0SumBlackMoveScore', 'Partition0BlackBlunderCount', 'Partition1MaxBlackMoveScore', 'Partition1MinBlackMoveScore', 'Partition1RangeBlackMoveScore', 'Partition1IQRBlackMoveScore', 'Partition1MedianBlackMoveScore', 'Partition1STDBlackMoveScore', 'Partition1MeanBlackMoveScore', 'Partition1ModeBlackMoveScore', 'Partition1SumBlackMoveScore', 'Partition1BlackBlunderCount', 'Partition2MaxBlackMoveScore', 'Partition2MinBlackMoveScore', 'Partition2RangeBlackMoveScore', 'Partition2IQRBlackMoveScore', 'Partition2MedianBlackMoveScore', 'Partition2STDBlackMoveScore', 'Partition2MeanBlackMoveScore', 'Partition2ModeBlackMoveScore', 'Partition2SumBlackMoveScore', 'Partition2BlackBlunderCount', 'Partition3MaxBlackMoveScore', 'Partition3MinBlackMoveScore', 'Partition3RangeBlackMoveScore', 'Partition3IQRBlackMoveScore', 'Partition3MedianBlackMoveScore', 'Partition3STDBlackMoveScore', 'Partition3MeanBlackMoveScore', 'Partition3ModeBlackMoveScore', 'Partition3SumBlackMoveScore', 'Partition3BlackBlunderCount', 'Partition4MaxBlackMoveScore', 'Partition4MinBlackMoveScore', 'Partition4RangeBlackMoveScore', 'Partition4IQRBlackMoveScore', 'Partition4MedianBlackMoveScore', 'Partition4STDBlackMoveScore', 'Partition4MeanBlackMoveScore', 'Partition4ModeBlackMoveScore', 'Partition4SumBlackMoveScore', 'Partition4BlackBlunderCount', 'WhiteAdvantageMoveScoresPartitionLen', 'Partition0MaxWhiteAdvantageMoveScore', 'Partition0MinWhiteAdvantageMoveScore', 'Partition0RangeWhiteAdvantageMoveScore', 'Partition0IQRWhiteAdvantageMoveScore', 'Partition0MedianWhiteAdvantageMoveScore', 'Partition0STDWhiteAdvantageMoveScore', 'Partition0MeanWhiteAdvantageMoveScore', 'Partition0ModeWhiteAdvantageMoveScore', 'Partition0SumWhiteAdvantageMoveScore', 'Partition0WhiteAdvantageBlunderCount', 'Partition1MaxWhiteAdvantageMoveScore', 'Partition1MinWhiteAdvantageMoveScore', 'Partition1RangeWhiteAdvantageMoveScore', 'Partition1IQRWhiteAdvantageMoveScore', 'Partition1MedianWhiteAdvantageMoveScore', 'Partition1STDWhiteAdvantageMoveScore', 'Partition1MeanWhiteAdvantageMoveScore', 'Partition1ModeWhiteAdvantageMoveScore', 'Partition1SumWhiteAdvantageMoveScore', 'Partition1WhiteAdvantageBlunderCount', 'Partition2MaxWhiteAdvantageMoveScore', 'Partition2MinWhiteAdvantageMoveScore', 'Partition2RangeWhiteAdvantageMoveScore', 'Partition2IQRWhiteAdvantageMoveScore', 'Partition2MedianWhiteAdvantageMoveScore', 'Partition2STDWhiteAdvantageMoveScore', 'Partition2MeanWhiteAdvantageMoveScore', 'Partition2ModeWhiteAdvantageMoveScore', 'Partition2SumWhiteAdvantageMoveScore', 'Partition2WhiteAdvantageBlunderCount', 'Partition3MaxWhiteAdvantageMoveScore', 'Partition3MinWhiteAdvantageMoveScore', 'Partition3RangeWhiteAdvantageMoveScore', 'Partition3IQRWhiteAdvantageMoveScore', 'Partition3MedianWhiteAdvantageMoveScore', 'Partition3STDWhiteAdvantageMoveScore', 'Partition3MeanWhiteAdvantageMoveScore', 'Partition3ModeWhiteAdvantageMoveScore', 'Partition3SumWhiteAdvantageMoveScore', 'Partition3WhiteAdvantageBlunderCount', 'Partition4MaxWhiteAdvantageMoveScore', 'Partition4MinWhiteAdvantageMoveScore', 'Partition4RangeWhiteAdvantageMoveScore', 'Partition4IQRWhiteAdvantageMoveScore', 'Partition4MedianWhiteAdvantageMoveScore', 'Partition4STDWhiteAdvantageMoveScore', 'Partition4MeanWhiteAdvantageMoveScore', 'Partition4ModeWhiteAdvantageMoveScore', 'Partition4SumWhiteAdvantageMoveScore', 'Partition4WhiteAdvantageBlunderCount', 'BlackAdvantageMoveScoresPartitionLen', 'Partition0MaxBlackAdvantageMoveScore', 'Partition0MinBlackAdvantageMoveScore', 'Partition0RangeBlackAdvantageMoveScore', 'Partition0IQRBlackAdvantageMoveScore', 'Partition0MedianBlackAdvantageMoveScore', 'Partition0STDBlackAdvantageMoveScore', 'Partition0MeanBlackAdvantageMoveScore', 'Partition0ModeBlackAdvantageMoveScore', 'Partition0SumBlackAdvantageMoveScore', 'Partition0BlackAdvantageBlunderCount', 'Partition1MaxBlackAdvantageMoveScore', 'Partition1MinBlackAdvantageMoveScore', 'Partition1RangeBlackAdvantageMoveScore', 'Partition1IQRBlackAdvantageMoveScore', 'Partition1MedianBlackAdvantageMoveScore', 'Partition1STDBlackAdvantageMoveScore', 'Partition1MeanBlackAdvantageMoveScore', 'Partition1ModeBlackAdvantageMoveScore', 'Partition1SumBlackAdvantageMoveScore', 'Partition1BlackAdvantageBlunderCount', 'Partition2MaxBlackAdvantageMoveScore', 'Partition2MinBlackAdvantageMoveScore', 'Partition2RangeBlackAdvantageMoveScore', 'Partition2IQRBlackAdvantageMoveScore', 'Partition2MedianBlackAdvantageMoveScore', 'Partition2STDBlackAdvantageMoveScore', 'Partition2MeanBlackAdvantageMoveScore', 'Partition2ModeBlackAdvantageMoveScore', 'Partition2SumBlackAdvantageMoveScore', 'Partition2BlackAdvantageBlunderCount', 'Partition3MaxBlackAdvantageMoveScore', 'Partition3MinBlackAdvantageMoveScore', 'Partition3RangeBlackAdvantageMoveScore', 'Partition3IQRBlackAdvantageMoveScore', 'Partition3MedianBlackAdvantageMoveScore', 'Partition3STDBlackAdvantageMoveScore', 'Partition3MeanBlackAdvantageMoveScore', 'Partition3ModeBlackAdvantageMoveScore', 'Partition3SumBlackAdvantageMoveScore', 'Partition3BlackAdvantageBlunderCount', 'Partition4MaxBlackAdvantageMoveScore', 'Partition4MinBlackAdvantageMoveScore', 'Partition4RangeBlackAdvantageMoveScore', 'Partition4IQRBlackAdvantageMoveScore', 'Partition4MedianBlackAdvantageMoveScore', 'Partition4STDBlackAdvantageMoveScore', 'Partition4MeanBlackAdvantageMoveScore', 'Partition4ModeBlackAdvantageMoveScore', 'Partition4SumBlackAdvantageMoveScore', 'Partition4BlackAdvantageBlunderCount']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[-196.66909118 -195.70741637 -195.08792997 -196.42501994]
+[-201.55550504 -199.47162525 -199.19672102 -197.46474219]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'IQRMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteMaxMoveScore', 'WhiteMinMoveScore', 'WhiteRangeMoveScore', 'WhiteIQRMoveScore', 'WhiteMedianMoveScore', 'WhiteSTDMoveScore', 'WhiteMeanMoveScore', 'WhiteModeMoveScore', 'WhiteSumMoveScore', 'WhiteBlunderCount', 'BlackMaxMoveScore', 'BlackMinMoveScore', 'BlackRangeMoveScore', 'BlackIQRMoveScore', 'BlackMedianMoveScore', 'BlackSTDMoveScore', 'BlackMeanMoveScore', 'BlackModeMoveScore', 'BlackSumMoveScore', 'BlackBlunderCount', 'WhiteAdvantageMinMoveScore', 'WhiteAdvantageRangeMoveScore', 'WhiteAdvantageIQRMoveScore', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMaxMoveScore', 'BlackAdvantageRangeMoveScore', 'BlackAdvantageIQRMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore', 'AllMoveScoresPartitionLen', 'Partition0MaxMoveScore', 'Partition0MinMoveScore', 'Partition0RangeMoveScore', 'Partition0IQRMoveScore', 'Partition0MedianMoveScore', 'Partition0STDMoveScore', 'Partition0MeanMoveScore', 'Partition0ModeMoveScore', 'Partition0SumMoveScore', 'Partition0BlunderCount', 'Partition1MaxMoveScore', 'Partition1MinMoveScore', 'Partition1RangeMoveScore', 'Partition1IQRMoveScore', 'Partition1MedianMoveScore', 'Partition1STDMoveScore', 'Partition1MeanMoveScore', 'Partition1ModeMoveScore', 'Partition1SumMoveScore', 'Partition1BlunderCount', 'Partition2MaxMoveScore', 'Partition2MinMoveScore', 'Partition2RangeMoveScore', 'Partition2IQRMoveScore', 'Partition2MedianMoveScore', 'Partition2STDMoveScore', 'Partition2MeanMoveScore', 'Partition2ModeMoveScore', 'Partition2SumMoveScore', 'Partition2BlunderCount', 'Partition3MaxMoveScore', 'Partition3MinMoveScore', 'Partition3RangeMoveScore', 'Partition3IQRMoveScore', 'Partition3MedianMoveScore', 'Partition3STDMoveScore', 'Partition3MeanMoveScore', 'Partition3ModeMoveScore', 'Partition3SumMoveScore', 'Partition3BlunderCount', 'WhiteMoveScoresPartitionLen', 'Partition0MaxWhiteMoveScore', 'Partition0MinWhiteMoveScore', 'Partition0RangeWhiteMoveScore', 'Partition0IQRWhiteMoveScore', 'Partition0MedianWhiteMoveScore', 'Partition0STDWhiteMoveScore', 'Partition0MeanWhiteMoveScore', 'Partition0ModeWhiteMoveScore', 'Partition0SumWhiteMoveScore', 'Partition1MaxWhiteMoveScore', 'Partition1MinWhiteMoveScore', 'Partition1RangeWhiteMoveScore', 'Partition1IQRWhiteMoveScore', 'Partition1MedianWhiteMoveScore', 'Partition1STDWhiteMoveScore', 'Partition1MeanWhiteMoveScore', 'Partition1ModeWhiteMoveScore', 'Partition1SumWhiteMoveScore', 'Partition2MaxWhiteMoveScore', 'Partition2MinWhiteMoveScore', 'Partition2RangeWhiteMoveScore', 'Partition2IQRWhiteMoveScore', 'Partition2MedianWhiteMoveScore', 'Partition2STDWhiteMoveScore', 'Partition2MeanWhiteMoveScore', 'Partition2ModeWhiteMoveScore', 'Partition2SumWhiteMoveScore', 'Partition3MaxWhiteMoveScore', 'Partition3MinWhiteMoveScore', 'Partition3RangeWhiteMoveScore', 'Partition3IQRWhiteMoveScore', 'Partition3MedianWhiteMoveScore', 'Partition3STDWhiteMoveScore', 'Partition3MeanWhiteMoveScore', 'Partition3ModeWhiteMoveScore', 'Partition3SumWhiteMoveScore']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[-196.71473712 -195.05145677 -193.41220538 -196.91290096]
+[-201.87273318 -198.55728517 -198.11997083 -197.7593331 ]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'IQRMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteMaxMoveScore', 'WhiteMinMoveScore', 'WhiteRangeMoveScore', 'WhiteIQRMoveScore', 'WhiteMedianMoveScore', 'WhiteSTDMoveScore', 'WhiteMeanMoveScore', 'WhiteModeMoveScore', 'WhiteSumMoveScore', 'WhiteBlunderCount', 'BlackMaxMoveScore', 'BlackMinMoveScore', 'BlackRangeMoveScore', 'BlackIQRMoveScore', 'BlackMedianMoveScore', 'BlackSTDMoveScore', 'BlackMeanMoveScore', 'BlackModeMoveScore', 'BlackSumMoveScore', 'BlackBlunderCount', 'WhiteAdvantageMinMoveScore', 'WhiteAdvantageRangeMoveScore', 'WhiteAdvantageIQRMoveScore', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMaxMoveScore', 'BlackAdvantageRangeMoveScore', 'BlackAdvantageIQRMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore', 'PartitionLen', 'Partition0MaxMoveScore', 'Partition0MinMoveScore', 'Partition0RangeMoveScore', 'Partition0IQRMoveScore', 'Partition0MedianMoveScore', 'Partition0STDMoveScore', 'Partition0MeanMoveScore', 'Partition0ModeMoveScore', 'Partition0SumMoveScore', 'Partition0BlunderCount', 'Partition1MaxMoveScore', 'Partition1MinMoveScore', 'Partition1RangeMoveScore', 'Partition1IQRMoveScore', 'Partition1MedianMoveScore', 'Partition1STDMoveScore', 'Partition1MeanMoveScore', 'Partition1ModeMoveScore', 'Partition1SumMoveScore', 'Partition1BlunderCount', 'Partition2MaxMoveScore', 'Partition2MinMoveScore', 'Partition2RangeMoveScore', 'Partition2IQRMoveScore', 'Partition2MedianMoveScore', 'Partition2STDMoveScore', 'Partition2MeanMoveScore', 'Partition2ModeMoveScore', 'Partition2SumMoveScore', 'Partition2BlunderCount', 'Partition3MaxMoveScore', 'Partition3MinMoveScore', 'Partition3RangeMoveScore', 'Partition3IQRMoveScore', 'Partition3MedianMoveScore', 'Partition3STDMoveScore', 'Partition3MeanMoveScore', 'Partition3ModeMoveScore', 'Partition3SumMoveScore', 'Partition3BlunderCount']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[-198.26921606 -197.0190156  -195.69451887 -198.69232469]
+[-203.55298719 -200.8296822  -199.93244657 -199.4238773 ]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'IQRMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteMaxMoveScore', 'WhiteMinMoveScore', 'WhiteRangeMoveScore', 'WhiteIQRMoveScore', 'WhiteMedianMoveScore', 'WhiteSTDMoveScore', 'WhiteMeanMoveScore', 'WhiteModeMoveScore', 'WhiteSumMoveScore', 'WhiteBlunderCount', 'BlackMaxMoveScore', 'BlackMinMoveScore', 'BlackRangeMoveScore', 'BlackIQRMoveScore', 'BlackMedianMoveScore', 'BlackSTDMoveScore', 'BlackMeanMoveScore', 'BlackModeMoveScore', 'BlackSumMoveScore', 'BlackBlunderCount', 'WhiteAdvantageMinMoveScore', 'WhiteAdvantageRangeMoveScore', 'WhiteAdvantageIQRMoveScore', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMaxMoveScore', 'BlackAdvantageRangeMoveScore', 'BlackAdvantageIQRMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[-201.25407742 -199.99920789 -197.56063269 -199.5284572 ]
+[-206.28556355 -203.32314202 -202.43147211 -200.55382219]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'IQRMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMinMoveScore', 'WhiteAdvantageRangeMoveScore', 'WhiteAdvantageIQRMoveScore', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMaxMoveScore', 'BlackAdvantageRangeMoveScore', 'BlackAdvantageIQRMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[ 202.14719998  201.27105186  198.6897697   200.52547072]
+[ 207.45263358  204.60324403  203.22389433  201.66047844]
+
+[Noscaling]
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'IQRMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMinMoveScore', 'WhiteAdvantageRangeMoveScore', 'WhiteAdvantageIQRMoveScore', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMaxMoveScore', 'BlackAdvantageRangeMoveScore', 'BlackAdvantageIQRMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[ 202.14719998  201.29584433  198.68493236  200.51787312]
+[ 207.45263358  204.61522291  203.22946875  201.6499301 ]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore']
+SGDRegressor(alpha=0.0001, epsilon=0.1, eta0=0.01, fit_intercept=True,
+       l1_ratio=0.15, learning_rate='invscaling', loss='squared_loss',
+       n_iter=10000, penalty='l2', power_t=0.25, random_state=None,
+       shuffle=False, verbose=0, warm_start=False)
+[ 202.16961589  201.44441726  198.72270032  200.6658271 ]
+[ 207.41494686  204.7900635   203.60206867  201.91085627]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[ 202.18407131  201.26796524  198.71404822  200.55528578]
+[ 207.47871033  204.57078233  203.33369003  201.86201189]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore']
+SGDRegressor(alpha=0.0001, epsilon=0.1, eta0=0.01, fit_intercept=True,
+       l1_ratio=0.15, learning_rate='invscaling', loss='squared_loss',
+       n_iter=4000, penalty='l2', power_t=0.25, random_state=None,
+       shuffle=False, verbose=0, warm_start=False)
+[ 202.19599027  201.52019372  198.7537486   200.68164788]
+[ 207.42281968  204.86157076  203.68578781  201.89804771]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[ 202.19854758  201.16137439  198.72581795  200.5921552 ]
+[ 207.50016949  204.55656524  203.34872317  201.9197296 ]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'ModeRound10MoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[ 202.19912499  201.25380194  198.74978208  200.49521863]
+[ 207.51440717  204.6773638   203.38861711  201.89449896]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'ModeRound10MoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[ 202.20977846  201.1842303   198.77753099  200.55429653]
+[ 207.51410716  204.6812272   203.36575551  201.94258009]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'ModeRound10MoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'WhiteAdvantageModeRound10MoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore', 'BlackAdvantageModeRound10MoveScore']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[ 202.2751463   201.20327735  198.71662294  200.47093781]
+[ 207.55792594  204.53885837  203.31969923  201.84566379]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'IQRMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMaxMoveScore', 'WhiteAdvantageMinMoveScore', 'WhiteAdvantageRangeMoveScore', 'WhiteAdvantageIQRMoveScore', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMaxMoveScore', 'BlackAdvantageMinMoveScore', 'BlackAdvantageRangeMoveScore', 'BlackAdvantageIQRMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[ 202.27549223  201.24387534  198.81247034  200.39540216]
+[ 207.46475395  204.61325829  203.29022967  201.6484442 ]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'IQRMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'ModeRound10MoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMaxMoveScore', 'WhiteAdvantageMinMoveScore', 'WhiteAdvantageRangeMoveScore', 'WhiteAdvantageIQRMoveScore', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'WhiteAdvantageModeRound10MoveScore', 'BlackAdvantageMaxMoveScore', 'BlackAdvantageMinMoveScore', 'BlackAdvantageRangeMoveScore', 'BlackAdvantageIQRMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore', 'BlackAdvantageModeRound10MoveScore']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[ 202.38700424  201.18582624  198.68182549  200.30937144]
+[ 207.52262429  204.55055245  203.13835404  201.62300073]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'BlunderCount', 'Results']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[ 204.89616827  204.21979739  201.74101239  203.36856212]
+[ 210.15478542  207.86917121  206.71174861  205.46452665]
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[ 205.08416757  204.2578816   201.80346527  203.38217476]
+[ 210.24961172  207.90624015  206.69766593  205.65461483]
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'BlunderCount', 'Results']
+LinearRegression(copy_X=True, fit_intercept=True, normalize=False)
+[ 205.00802547  204.20756956  201.78750833  203.40594605]
+[ 210.26198775  207.86492047  206.7089322   205.46470315]
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+SGDRegressor(alpha=0.0001, epsilon=0.1, eta0=0.01, fit_intercept=True,
+       l1_ratio=0.15, learning_rate='invscaling', loss='squared_loss',
+       n_iter=2000, penalty='l2', power_t=0.25, random_state=None,
+       shuffle=False, verbose=0, warm_start=False)
+[ 205.07216784  204.47622289  201.89843733  203.56481247]
+[ 210.16135818  208.00890481  206.86101374  205.59108436]
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+SGDRegressor(alpha=0.0001, epsilon=0.1, eta0=0.01, fit_intercept=True,
+       l1_ratio=0.15, learning_rate='invscaling', loss='squared_loss',
+       n_iter=15000, penalty='l2', power_t=0.25, random_state=None,
+       shuffle=False, verbose=0, warm_start=False)
+[ 205.04346878  204.37778215  201.85564314  203.50745358]
+[ 210.16136432  207.93883362  206.81471935  205.60653053]
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, penalty='l2', random_state=None, tol=0.0001)
+[ 230.6440802   221.09926757  217.87748016  203.44808839]
+[ 245.86798246  224.74021909  215.67344913  224.3041048 ]
+
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+SGDRegressor(alpha=0.0001, epsilon=0.1, eta0=0.01, fit_intercept=True,
+       l1_ratio=0.15, learning_rate='invscaling', loss='squared_loss',
+       n_iter=5000, penalty='l2', power_t=0.25, random_state=None,
+       shuffle=False, verbose=0, warm_start=False)
+[ 205.05356706  204.42376455  201.87362027  203.53674212]
+[ 210.1614005   207.97199251  206.83947797  205.60097694]
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+DecisionTreeRegressor(compute_importances=None, criterion='mse',
+           max_depth=None, max_features=None, max_leaf_nodes=None,
+           min_density=None, min_samples_leaf=1, min_samples_split=2,
+           random_state=None, splitter='best')
+[ 280.57485667  278.85728     273.69244     281.30731   ]
+[ 282.70800333  282.92988267  282.35619     278.37999   ]
+
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+ExtraTreeRegressor(compute_importances=None, criterion='mse', max_depth=None,
+          max_features='auto', max_leaf_nodes=None, min_density=None,
+          min_samples_leaf=1, min_samples_split=2, random_state=None,
+          splitter='random')
+[ 280.42184333  282.67712     283.3562      281.65211   ]
+[ 285.13355     281.15402133  283.43291     284.05583   ]
+
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+         n_estimators=50000, random_state=None)
+[ 216.71316244  221.73846331  214.40008356  217.84915881]
+[ 214.91471381  213.20852587  216.08156704  209.88356845]
+
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+LogisticRegression(C=0.1, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, penalty='l2', random_state=None, tol=0.0001)
+[ 231.13478706  217.86676017  210.37946429  199.62118555]
+[ 244.14035088  224.54241002  216.90554177  222.09292576]
+
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+LogisticRegression(C=0.5, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, penalty='l2', random_state=None, tol=0.0001)
+[ 229.47504756  220.23484494  216.74801587  200.90985619]
+[ 246.58625731  223.81877934  215.04665012  223.9358952 ]
+
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+LogisticRegression(C=0.75, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, penalty='l2', random_state=None, tol=0.0001)
+[ 230.32518659  221.45379461  217.57903439  202.72500877]
+[ 245.94809942  224.10782473  215.65409429  224.11930131]
+
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+LogisticRegression(C=1.5, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, penalty='l2', random_state=None, tol=0.0001)
+[ 231.80711254  221.37151317  218.02083333  204.60101719]
+[ 246.59298246  224.64115806  216.36062862  224.73117904]
+
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'Results']
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.0,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+[ 233.98302356  217.77279102  207.77992725  205.59470361]
+[ 245.78640351  229.9228482   214.50818859  213.97310044]
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'BlunderCount', 'Results']
+AdaBoostRegressor(base_estimator=LinearRegression(copy_X=True, fit_intercept=True, normalize=False),
+         learning_rate=1.0, loss='linear', n_estimators=500,
+         random_state=None)
+[ 210.66642507  209.75019464  206.86278194  207.65558309]
+[ 213.90029705  212.28369683  210.83434486  209.41610459]
+
+['MaxMoveScore', 'MinMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'WhiteAdvantageCount', 'BlackAdvantageCount', 'SumMoveScore', 'BlunderCount', 'Results']
+AdaBoostRegressor(base_estimator=LinearRegression(copy_X=True, fit_intercept=True, normalize=False),
+         learning_rate=1.0, loss='linear', n_estimators=5000,
+         random_state=None)
+[ 210.02286243  208.78967485  206.60265237  208.23916978]
+[ 214.96308038  212.89846767  210.53893376  210.43049437]
+
+['MaxMoveScore', 'MinMoveScore', 'RangeMoveScore', 'MedianMoveScore', 'STDMoveScore', 'GameLen', 'MeanMoveScore', 'ModeMoveScore', 'SumMoveScore', 'BlunderCount', 'Results', 'WhiteAdvantageMedianMoveScore', 'WhiteAdvantageSTDMoveScore', 'WhiteAdvantageCount', 'WhiteAdvantageMeanMoveScore', 'WhiteAdvantageModeMoveScore', 'BlackAdvantageMedianMoveScore', 'BlackAdvantageSTDMoveScore', 'BlackAdvantageCount', 'BlackAdvantageMeanMoveScore', 'BlackAdvantageModeMoveScore']
+RandomForestRegressor(bootstrap=True, compute_importances=None,
+           criterion='mse', max_depth=None, max_features='auto',
+           max_leaf_nodes=None, min_density=None, min_samples_leaf=1,
+           min_samples_split=2, n_estimators=300, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0)
+[ 198.97301437  198.81278052  197.22374915  197.32243476]
+[ 204.83721919  201.28735514  200.58156593  199.73320552]
+
+

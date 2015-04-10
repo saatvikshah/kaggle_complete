@@ -1,0 +1,5 @@
+{
+    "data_dir" : "../data/FindingELO",
+    "cache_dir" : "../data/FindingELO/cache",
+    "num_partitions" : 3
+}
