@@ -1,0 +1,59 @@
+Training
+__KeepChannel_[28, 29, 30]__ButterworthFilter_0.1_15_4_200_epoched__EEGConcatExtracter__Downsampler_dec_8
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+[Parallel(n_jobs=-1)]: Done   1 jobs       | elapsed:   10.7s
+[Parallel(n_jobs=-1)]: Done   4 out of   4 | elapsed:   11.0s finished
+Cross Validation Stats
+Best parameters set:
+GradientBoostingClassifier(init=None, learning_rate=0.05, loss='deviance',
+              max_depth=2, max_features=0.25, max_leaf_nodes=None,
+              min_samples_leaf=1, min_samples_split=2, n_estimators=500,
+              random_state=None, subsample=1.0, verbose=0,
+              warm_start=False)
+Grid scores on development set:
+0.661 (+/-0.025) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05, 'max_depth': 2}
+Training
+____KeepChannel_[28, 29, 30]__ButterworthFilter_0.1_15_4_200_epoched__EEGConcatExtracter__Downsampler_dec_12__KeepChannel_[28, 29, 30]__ButterworthFilter_0.1_15_4_200_epoched__<transforms.ActualWaveletTransform instance at 0x7f6c07a37fc8>__EEGConcatExtracter__Downsampler_dec_12
+(5440, 260, 3)
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+[Parallel(n_jobs=-1)]: Done   1 jobs       | elapsed:   10.5s
+[Parallel(n_jobs=-1)]: Done   4 out of   4 | elapsed:   10.9s finished
+Cross Validation Stats
+Best parameters set:
+GradientBoostingClassifier(init=None, learning_rate=0.05, loss='deviance',
+              max_depth=2, max_features=0.25, max_leaf_nodes=None,
+              min_samples_leaf=1, min_samples_split=2, n_estimators=500,
+              random_state=None, subsample=1.0, verbose=0,
+              warm_start=False)
+Grid scores on development set:
+0.661 (+/-0.022) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05, 'max_depth': 2}
+Training
+____KeepChannel_[28, 29, 30]__ButterworthFilter_0.1_15_4_200_epoched__EEGConcatExtracter__Downsampler_dec_24__KeepChannel_[28, 29, 30]__ButterworthFilter_0.1_15_4_200_epoched__<transforms.ActualWaveletTransform instance at 0x7f6c07a3e4d0>__EEGConcatExtracter__Downsampler_dec_24
+(5440, 260, 3)
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+[Parallel(n_jobs=-1)]: Done   1 jobs       | elapsed:    5.6s
+[Parallel(n_jobs=-1)]: Done   4 out of   4 | elapsed:    5.9s finished
+Cross Validation Stats
+Best parameters set:
+GradientBoostingClassifier(init=None, learning_rate=0.05, loss='deviance',
+              max_depth=2, max_features=0.25, max_leaf_nodes=None,
+              min_samples_leaf=1, min_samples_split=2, n_estimators=500,
+              random_state=None, subsample=1.0, verbose=0,
+              warm_start=False)
+Grid scores on development set:
+0.658 (+/-0.025) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05, 'max_depth': 2}
+Training
+____KeepChannel_[28, 29, 30]__ButterworthFilter_0.1_15_4_200_epoched__EEGConcatExtracter__Downsampler_dec_12__KeepChannel_[28, 29, 30]__ButterworthFilter_0.1_15_4_200_epoched__<transforms.ActualWaveletTransform instance at 0x7f6c07a3e998>__EEGConcatExtracter__Downsampler_dec_24
+(5440, 260, 3)
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+[Parallel(n_jobs=-1)]: Done   1 out of   4 | elapsed:    9.0s remaining:   26.9s
+[Parallel(n_jobs=-1)]: Done   4 out of   4 | elapsed:    9.2s finished
+Cross Validation Stats
+Best parameters set:
+GradientBoostingClassifier(init=None, learning_rate=0.05, loss='deviance',
+              max_depth=2, max_features=0.25, max_leaf_nodes=None,
+              min_samples_leaf=1, min_samples_split=2, n_estimators=500,
+              random_state=None, subsample=1.0, verbose=0,
+              warm_start=False)
+Grid scores on development set:
+0.657 (+/-0.025) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05, 'max_depth': 2}

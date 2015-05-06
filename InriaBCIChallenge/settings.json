@@ -1,0 +1,5 @@
+{
+    "data_dir" : "../data/InriaBCIChallenge",
+    "cache_dir" : "../data/InriaBCIChallenge/cache",
+    "train_subjects" : 16
+}

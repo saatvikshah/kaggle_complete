@@ -1,0 +1,49 @@
+CV Logs
+GBM + SubjectFeedbackinfo + Cz features
+with cv_iterator(8 fold) = 0.531 for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05}
+with 4 fold cv = 0.617 (+/-0.030) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05}
+
+GBM + SubjectFeedbackinfo +  Filtered Cz features chan 28
+with cv_iterator(16 fold) = 0.547 (+/-0.034) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05, 'max_depth': 2}
+with 4 fold cv = 0.670 (+/-0.022) for {'max_features': 0.5, 'n_estimators': 500, 'learning_rate': 0.05, 'max_depth': 2}
+
+GBM + SubjectFeedbackinfo +  Filtered chan 29 features
+with cv_iterator(8 fold) =
+with 4 fold cv =
+
+GBM + SubjectFeedbackinfo +  Filtered chan 30 features
+with cv_iterator(8 fold) =
+with 4 fold cv =
+
+GBM + SubjectFeedbackinfo +  Filtered all chan features
+with cv_iterator(16 fold) = 0.546 (+/-0.035)/0.548 (+/-0.032) for Downsampling different rates
+with 4 fold cv = 0.648/0.655 for Downsampling different rates
+
+GBM + SubjectFeedbackinfo +  Filtered 28-30 chan features
+with cv_iterator(16 fold) = 0.552 (+/-0.032)/0.557 (+/-0.033)/0.559 (+/-0.032)
+
+
+GBM + Cz features
+with cv_iterator(8 fold) = 0.509 (+/-0.025) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05}
+with 4 fold cv =  0.540 (+/-0.009) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05}
+
+GBM + Filtered Cz features(chan 28)
+with cv_iterator(8 fold) = 0.587 (+/-0.005) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05}
+with 4 fold cv = 0.546 (+/-0.038) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05}
+
+
+GBM + Chan 29 features
+with cv_iterator(8 fold) = 0.513 (+/-0.024) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05}
+with 4 fold cv = 0.528 (+/-0.013) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05}
+
+GBM + Filtered Chan 29 features
+with cv_iterator(8 fold) = 0.562 (+/-0.035) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05}
+with 4 fold cv = 0.580 (+/-0.008) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05}
+
+GBM + Filtered Chan 30 features
+with cv_iterator(8 fold) = 0.554 (+/-0.038) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05}
+with 4 fold cv = 0.581 (+/-0.005) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05}
+
+GBM on each channel separatly
+Grid scores on development set:
+0.604 (+/-0.030) for {'max_features': 0.25, 'n_estimators': 500, 'learning_rate': 0.05, 'max_depth': 2}
